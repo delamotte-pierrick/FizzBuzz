@@ -1,0 +1,26 @@
+{
+  "name": "pierrick/feezbuzz",
+  "autoload": {
+    "psr-4": {
+      "Pierrick\\Fizzbuzz\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Pierrick\\Fizzbuzz\\Tests\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Pierrick Delamotte",
+      "email": "pierrick.delamotte@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.1",
+    "ext-json": "*",
+    "ext-mbstring": "*",
+    "ext-xml": "*",
+    "phpunit/phpunit": "^10"
+  }
+}
