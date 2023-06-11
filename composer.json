@@ -21,6 +21,7 @@
     "ext-json": "*",
     "ext-mbstring": "*",
     "ext-xml": "*",
-    "phpunit/phpunit": "^10"
+    "phpunit/phpunit": "^10",
+    "friendsofphp/php-cs-fixer": "^3.17"
   }
 }
